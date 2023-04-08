@@ -29,7 +29,7 @@
      <?php echo "<p>Welcome to the Guess My Number game! Please input your guess below:</p>"; ?>
 
      <!-- Form for user input -->
-     <form action="./check.php" method="post" target="result">
+     <form action="./results.php" method="post" target="result">
        <label for="guess">Guess a Number Between 1 and 6:</label>
        <input type="number" step="1" id="user-guess" name="user-guess" min="1" max="6" placeholder="Guess"><br><br>
        <input type="submit" value="Check" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
