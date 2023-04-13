@@ -36,7 +36,9 @@
      </form>
 
    <!-- Image -->
+   <center>
    <img src="./images/number.jpg" alt="Number Assortment" width="300" length="300">
+   </center>
 
    <!-- iframe -->
    <iframe id="result" name="result"></iframe>

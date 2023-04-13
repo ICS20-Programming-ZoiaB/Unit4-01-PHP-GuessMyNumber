@@ -7,8 +7,9 @@
   if ($correctNumber == $guessedNumber) {
     echo "Good job, that is correct!";
   }
-  //else: if user guessed wrong
-  else {
+  
+  //if/then statement: if correctNumber is not equal to guessedNumber
+ if ($correctNumber != $guessedNumber) {
     echo "You guessed the wrong number! The correct number is $correctNumber.";
   }
 ?>
